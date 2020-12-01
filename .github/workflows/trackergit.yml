@@ -38,4 +38,4 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
       - name: deploying using surge
-        run: surge ./build hretrackerapp.surge.sh  --token ${{ secrets.SURGE_TOKEN }} 
+        run: surge ./build hretrackerapp.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
