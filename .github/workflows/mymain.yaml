@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Class2bootcamp
+name: E-TrackerApp
 
 # Controls when the action will run. 
 on:
@@ -41,4 +41,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./build hr280clas2bootcamp.surge.sh/ --token ${{ secrets.MY_SURGE_TOKEN }} 
+        run: surge ./ build hr280clas2bootcamp.surge.sh/ --token ${{ secrets.MY_SURGE_TOKEN }} 
